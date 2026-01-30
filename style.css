@@ -1,0 +1,40 @@
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+.movil{
+    display: flex;
+
+    margin: 1.5625rem;
+}
+
+.pc{
+    display: none;
+    margin: 1.5625rem;
+
+}
+
+
+@media screen and (min-width: 30rem) {
+    
+    body {
+        display: flex;
+    }
+
+    .movil {
+
+        display: none;
+    }
+
+    .pc {
+        display: block;
+    }
+
+}
